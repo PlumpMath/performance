@@ -1,4 +1,3 @@
-
 """Microbenchmark for method call overhead where the target is unpredictable.
 
 This measures simple method calls that are unpredictable, but do not use

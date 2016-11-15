@@ -1,4 +1,3 @@
-
 """Microbenchmark for method call overhead on types that define __slots__.
 
 This measures simple method calls for objects with no dicts that are

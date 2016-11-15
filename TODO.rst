@@ -10,6 +10,13 @@ TODO
 * html5lib: 1 warmup, 3 runs: run 2 is always 10% slower!?
 
 
+Twisted: bench_twisted
+======================
+
+* Debug dns slowdown over time
+* Add an AMP benchmark
+
+
 numpy benchmarks?
 =================
 
@@ -46,10 +53,6 @@ Todo:
 * trans2_database
 * trans2_rtype
 * trans2_source
-* twisted_iteration
-* twisted_names
-* twisted_pb
-* twisted_tcp
 
 Deliberate choice to not add it:
 
@@ -100,6 +103,10 @@ Done:
 * sympy_str
 * sympy_sum
 * telco
+* twisted_iteration
+* twisted_names
+* twisted_pb
+* twisted_tcp
 
 
 pyston benchmarks

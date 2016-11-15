@@ -61,6 +61,7 @@ def main():
         'performance.benchmarks',
         'performance.benchmarks.data',
         'performance.benchmarks.data.2to3',
+        'performance.benchmarks.bench_twisted',
         'performance.benchmarks.pybench',
         'performance.benchmarks.pybench.package',
         'performance.tests',

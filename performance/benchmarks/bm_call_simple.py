@@ -1,4 +1,3 @@
-
 """Microbenchmark for function call overhead.
 
 This measures simple function calls that are not methods, do not use varargs or

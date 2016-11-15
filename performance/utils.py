@@ -15,3 +15,11 @@ def temporary_file():
         except OSError as exc:
             if exc.errno != errno.ENOENT:
                 raise
+
+
+def create_environ():
+    env = {}
+    for name in ("PATH", "HOME", "TEMP", "COMSPEC", "SystemRoot"):
+        if name in os.environ:
+            env[name] = os.environ[name]
+    return env

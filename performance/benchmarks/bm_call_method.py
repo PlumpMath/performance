@@ -1,4 +1,3 @@
-
 """Microbenchmark for method call overhead.
 
 This measures simple method calls that are predictable, do not use varargs or

@@ -363,6 +363,13 @@ Available Benchmarks
 
 - ``telco`` - Benchmark the ``decimal`` module
 - ``tornado_http`` - Benchmark HTTP server of the ``tornado`` module
+- ``twisted`` - Benchmark the ``twisted`` module
+
+  * ``twisted_iteration``
+  * ``twisted_names``
+  * ``twisted_pb``
+  * ``twisted_tcp``
+
 - ``unpack_sequence`` - microbenchmark for unpacking lists and tuples.
 - ``unpickle_list``
 - ``unpickle_pure_python`` - use the pure-Python pickle module to unpickle a
@@ -390,6 +397,7 @@ Version 0.5.0 (2016-11-16)
 
 * Add ``mdp`` benchmark: battle with damages and topological sorting of nodes
   in a graph
+* Add ``twisted`` benchmark: Benchmark the ``twisted`` module
 * The ``default`` benchmark group now include all benchmarks but ``pybench``
 * If a benchmark fails, log an error, continue to execute following
   benchmarks, but exit with error code 1.
